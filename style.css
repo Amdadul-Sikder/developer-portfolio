@@ -25,7 +25,7 @@ h1{
     padding: 10px 40px;
     color: #fff;
     font-weight: 700;
-    background: linear-gradient(orange, tomato);
+    background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
 }
 .top-banner{
@@ -36,4 +36,32 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin: 0 5%;
+    box-shadow: 10px 10px 40px grey;
+    padding: 50px;
+    border-radius: 10px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h1 {
+    margin-left: 5%;
+}
+#full-stack-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient( purple, tomato);
+    border-image-slice:1;
+}
+#baby-web-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice:1;
+}
+footer{
+    text-align: center;
 }
